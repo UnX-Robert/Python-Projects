@@ -19,4 +19,13 @@ Requirements:
 •Random
 •time
 
+#Game class
+#Coords class
+#Sprite class
+#PlatformSprite class
+#MovingPlatformSprite class
+#StickFigureSpirte class
+#DoorSprite class
+
+
 ![](icon.png)
