@@ -8,9 +8,8 @@ Requirements:
 	# random
 	# time
 
-> Ball class
-> Paddle class
-> Score class
-
+# Ball class
+# Paddle class
+# Score class
 
  ![](bounce.png)
