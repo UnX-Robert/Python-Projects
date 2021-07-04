@@ -5,7 +5,6 @@ comes to an end.
 
 Requirements:
 	# tkinter
-	# random
 	# time
 
 # Ball class
