@@ -24,7 +24,7 @@ Requirements:
 #Sprite class
 #PlatformSprite class
 #MovingPlatformSprite class
-#StickFigureSpirte class
+#StickFigureSprite class
 #DoorSprite class
 
 
