@@ -20,9 +20,9 @@ a while loop that calls check_events(), ship.update(), and update_screen().
 game.py is the only file you need to run when you want to play
 Alien Invasion. The other files settings.py, game_functions.py, ship.py, alien.py, bullet.py, button.py, game_stats.py, scoreboard.py —
 contain code that is imported, directly or indirectly, into this file.
-settings.py
 
-# The settings.py file contains the Settings class. 
+# The settings.py
+file contains the Settings class. 
 This class has an __init__() method, which initializes attributes controlling the game’s
 appearance and the ship’s speed, an initialize_dynamic_settings method that contains settings that change throught the game and an increase_speed method that increase speed settings and alien point values.
 
