@@ -1,0 +1,33 @@
+{% extends 'polls/base.html' %}
+
+<!doctype html>
+<html>
+
+<head>
+
+	<title>index</title>
+
+</head>
+
+<body>
+    {% block content %}
+
+    <h1 class="mt-2" >Welcome at polls index.</h1>
+
+	{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+
+    {% endblock %}
+</body> 
+
+<footer>
+</footer>
+
+</html>
